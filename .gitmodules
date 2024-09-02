@@ -1,3 +1,6 @@
 [submodule "ft8_lib"]
 	path = ft8_lib
-	url = git://github.com/kgoba/ft8_lib
+	# url = git://github.com/kgoba/ft8_lib
+        #Fixes	1.) "git submodule update --init --recursive" failing
+	# 	2.) Ubuntu compile issues
+	url = https://github.com/kholia/ft8_lib
